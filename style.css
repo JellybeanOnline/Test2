@@ -4,6 +4,12 @@
   padding: 10px;
 }
 
+.cat-card {
+  width: 80%;
+  max-width: 600px; /* optional: set a maximum width */
+  margin: 0 auto; /* optional: center the card horizontally */
+}
+
 .card-header {
   font-weight: bold;
 }
