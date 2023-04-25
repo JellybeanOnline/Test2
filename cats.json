@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "age": 3,
+    "breed": "Siamese",
+    "color": "Brown",
+    "description": "Luna is a playful and affectionate cat who loves to curl up in your lap."
+  },
+  {
+    "id": 2,
+    "name": "Whiskers",
+    "age": 5,
+    "breed": "Persian",
+    "color": "White",
+    "description": "Whiskers is a regal and independent cat who enjoys lounging in sunbeams."
+  },
+  {
+    "id": 3,
+    "name": "Simba",
+    "age": 2,
+    "breed": "Maine Coon",
+    "color": "Orange",
+    "description": "Simba is a playful and curious cat who loves to explore new environments."
+  }
+]
