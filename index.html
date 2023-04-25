@@ -10,6 +10,18 @@
     <label for="cat-selector">Select a cat:</label>
     <select id="cat-selector"></select>
     <div id="cat-info-container"></div>
+    <h2>Add a Cat</h2>
+      <form id="add-cat-form">
+        <div>
+          <label for="cat-name">Name:</label>
+          <input type="text" id="cat-name" name="name" required>
+        </div>
+        <div>
+          <label for="cat-age">Age:</label>
+          <input type="number" id="cat-age" name="age" required>
+        </div>
+        <button type="submit">Add Cat</button>
+      </form>
     <script src="script.js"></script>
   </body>
 </html>
