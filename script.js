@@ -56,3 +56,15 @@ function displayCatInfo(cat) {
   catInfoContainer.appendChild(cardHeader);
   catInfoContainer.appendChild(cardBody);
 }
+
+const addCatForm = document.getElementById('add-cat-form');
+addCatForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent form submission
+  const name = addCatForm.elements.name.value;
+  const age = addCatForm.elements.age.value;
+  const newCat = { name, age };
+  catData.push(newCat);
+  updateCatList(); // update the cat list to show the new cat
+  addCatForm.reset(); // reset the form
+});
+
